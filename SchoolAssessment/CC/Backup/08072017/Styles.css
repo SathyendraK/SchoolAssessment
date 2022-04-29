@@ -1,0 +1,340 @@
+/* STRUCTURE AND GLOBAL */
+@font-face {
+    font-family: "Myriad Pro";
+    src: url('C:\Windows\Fonts\MyriadPro-Regular.otf')
+
+}
+
+body {
+	text-align:center;
+	background:#f2f2f2;
+	font-family: "Myriad Pro", Arial, Sans-Serif;	
+    
+}
+img {
+	border:0;
+}
+
+hr {
+	height:1px;
+	background-color:#b4dde1;
+	border:0;
+	border-top:1px solid #b4dde1;
+	border-collapse:collapse;
+	color:#b4dde1;
+	margin: 1em -1em;
+	padding:0;
+	clear: both;
+}
+hr.ExcludedFromSchool {
+	height:1px;
+	border:0;
+	border-collapse:collapse;
+	color:#000;
+	padding:0;
+	
+}
+h3 
+{
+    font-size:1.5em;
+}
+p {
+	padding: .5em 0;
+	margin:0;	
+}
+table 
+{
+  margin: 0, 0;
+}
+table.form
+{
+    border-spacing: 20px 10px; 
+}
+td, input, select, option {
+	font-family: "Myriad Pro",Arial, Sans-Serif;
+	font-size: 1em;
+}
+ol 
+{
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:0;
+  padding-bottom:0;
+}
+ol li 
+{
+  padding:0;
+  margin:0;
+}
+li {
+	padding: .5em 0;
+}
+#container {
+	margin:0 auto;
+	width: 926px;
+}
+#content-wrap {
+	padding: 0 13px;
+	background: url(Images/contentbg.png) center center repeat-y;
+}
+#content {
+	padding: 20px 35px 6px;
+	background:#ffffff;
+	text-align:left;
+}
+#header-wrap {
+	background: url(Images/headerbg.png) top left no-repeat;
+	height: 110px;
+	padding: 14px 13px 0;	
+	position:relative;
+}
+
+
+#header 
+{  
+	text-align:left;
+}
+#logo 
+{
+  position:relative;
+	bottom: 0;
+}
+#duedate
+{
+    background: #f2f2f2;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #652F8D;
+    position: absolute;
+    bottom: 55px;
+    right: 35px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #652F8D;
+}
+#duedateLogin
+{
+    background: #f2f2f2;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #652F8D;
+    position: absolute;
+    bottom: 55px;
+    right: 35px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #652F8D;
+}
+#help 
+{
+    position:absolute;
+    top: 25px;
+    right: 50px; 
+    height: 110px;   
+    font-weight: bold; 
+    font-size: 1em;
+}
+#topbnr 
+{
+    position:absolute;
+    bottom: 10px;
+    right: 35px; 
+    font-weight: bold; 
+    font-size: 16px;
+    font-family: "Myriad Pro", Arial, Sans-Serif;
+    color: #652F8D;
+    text-decoration: none;
+  
+    
+}
+
+a:link{
+    text-decoration: none;
+    color: #652F8D;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #652F8D;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #652F8D;
+}
+
+
+#footer-wrap {
+	padding: 0 13px 14px;
+	background: url(Images/footerbg.png) bottom left no-repeat;
+}
+#footer {
+	height: 10px;
+	background:#ffffff;
+}
+
+
+/* FONTS AND OTHERS */
+.loginbox 
+{
+  background: #e2f1f4;
+  float:right; 
+  margin-left:15px;
+}
+.loginboxLeft 
+{
+  background: #e2f1f4;
+  float:left; 
+  
+  width: 800px;
+  border-spacing: 2px;
+  padding: 10px;
+}
+.small 
+{
+  font-size: 0.8em;
+  font-style: italic;
+}
+.tighter
+{
+  letter-spacing:-1px;
+}
+.redbold
+{
+  font-weight: bold;
+  color: #cc0000;
+}
+.underline
+{
+  text-decoration: underline;
+}
+table.VacBox 
+{
+    background:#ccc;
+}
+tr.VacBoxTr
+{
+    background:#000;
+    color:#fff;
+}
+
+td.VacBoxTitle {
+    font-weight: bold;     
+}
+td.TitleFont {
+    font-family: "Myriad Pro", Arial, Sans-Serif;	
+	font-size: 14px;
+	color: #4169E1;
+     
+}
+td.TitleFontCC {
+    font-family: "Myriad Pro", Arial, Sans-Serif;	
+	font-size: 18px;
+	color: #4169E1;
+    font-weight: bold;  
+}
+td.indent {
+   text-indent: 20px;
+   height: 18px;
+   vertical-align: central;
+  
+   
+}
+
+td.indent2 {
+   text-indent: 40px;
+   height: 18px;
+   vertical-align: central;
+}
+
+td.alignLeft {
+   text-align:left;
+   
+}
+
+td.indentInfoImg {
+   text-indent: 40px;
+   vertical-align: text-top;
+   border:0px;
+   font-style:italic
+}
+
+
+td.missingDoses {
+   width: 90px;
+   text-indent: 40px;
+   text-align:left;
+}
+td.missingDosesRightSide {
+   width: 60px;
+   text-align:right;
+}
+td.boldBgLogin {
+    background-color: #b4dde1;
+    border-spacing: 0px;
+    padding: 0px;
+}
+td.SchCodeSelect{
+    background: #e2f1f4;
+    border-radius: 15px;
+    padding: 0px; 
+    width: 200px;
+    height: 350px; 
+}
+.regulation 
+{
+  font-style:italic; color:#666; font-size: 0.8em
+}
+.after-reporting
+{
+  padding-top: 1em;
+}
+.ValidationSummary 
+{
+  font-weight: bold;
+  color: #000000;
+  border: 1px solid #cc0000;
+  background: #F5D7EA;
+  padding: 10px;
+  font-family: "Myriad Pro", Arial, Sans-Serif;	
+}
+.ValidationSummary li
+{
+  padding-top:0;
+  padding-bottom:0;
+  margin-top:0;
+  margin-bottom:0;
+}
+.RequiredFieldValidator 
+{
+  color:#cc0000;
+  font-weight: bold;    
+}
+.CreateSpace
+{
+    padding-left: 150px;
+    padding-right: 0px;
+}
+.hide
+{
+    visibility: hidden
+}
+
+
+@media print 
+{
+    body { margin:0; padding: 0; }
+    img, hr, #header-wrap, #footer-wrap { display: none; }
+    #container-wrap, #content-wrap, #content, #formTable { width:100%; }
+    #content-wrap, #content { margin: 0; padding: 0; }
+    #btnprevious, #btnprint, #btnanother, #btndownload, #btnlogout { display: none; }
+    .aspNetDisabled {background: #fff; color:#000; }
+}
+
+div.verticalLine {
+    border-left: 1px solid black; 
+    padding: 5px; 
+}
+

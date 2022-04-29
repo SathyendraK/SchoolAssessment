@@ -1,0 +1,144 @@
+/* STRUCTURE AND GLOBAL */
+body {
+	font-family: Arial, Sans-Serif;
+	font-size: 0.85em;		
+}
+img {
+	border:0;	
+}
+fieldset 
+{
+  padding: 5px;
+}
+legend 
+{
+  font-weight: bold;
+}
+a 
+{
+  color:#0000cc;
+}
+hr {
+	height:1px;
+	background-color:#b4dde1;
+	border:0;
+	border-top:1px solid #b4dde1;
+	border-collapse:collapse;
+	color:#b4dde1;
+	margin: 1em 0;
+	padding:0;
+	clear: both;
+}
+h3 
+{
+    font-size:1.5em;
+}
+p {
+	padding: .25em 0;
+	margin:0;
+}
+table 
+{
+  margin-top: .5em;
+  margin-bottom: .5em;  
+  border-collapse: collapse;
+}
+td, input, select, option {
+	font-family: Arial, Sans-Serif;
+	font-size: 1em;	
+}
+table.summary td,
+table.summary th
+{
+  border: 1px solid #ccc;
+  padding: 0.5em 1em;
+  margin: 0;
+  border-collapse: collapse;  
+}
+
+ol 
+{
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:0;
+  padding-bottom:0;
+}
+ol li 
+{
+  padding:0;
+  margin:0;
+}
+li {
+	padding: .25em 0;
+}
+
+.redbold 
+{
+  font-weight: bold;
+  color: #cc0000;
+}
+
+#nav 
+{
+  text-align: left;
+  
+}
+
+#nav ul 
+{
+  text-align: left;
+  list-style: none;
+  padding-left:20px;
+  padding-right:0;
+  padding-top:0;
+  margin-left:0;
+  margin-right:0;  
+  margin-top:0;
+}
+
+#nav li 
+{
+  text-align: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#grdSchools a 
+{
+  color:#333333;
+}
+
+.RequiredFieldValidator 
+{
+  color:#cc0000;
+  font-weight: bold;    
+}
+
+.ValidationSummary 
+{
+  font-weight: normal;
+  color: #323232;
+  border: 1px solid #cc0000;
+  background: #F5D7EA;
+  padding: 10px;
+  font-family: Arial, Sans-Serif;
+  font-size: 1em;	
+}
+
+.redbold
+{
+  color:#cc0000;
+  font-weight: bold;    
+}
+
+.greenbold 
+{
+  color:#33CC33;
+  font-weight: bold;
+}
+
+.aspNetDisabled 
+{
+  background: #cccccc;
+}
